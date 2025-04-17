@@ -9,3 +9,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten si no caben en una fila */
+    gap: 16px; /* Espaciado entre las tarjetas */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    padding: 16px; /* Espaciado interno del contenedor */
+}
+
+.card {
+    flex: 0 1 calc(25% - 16px); /* Cada tarjeta ocupa el 25% del ancho menos el espacio del gap */
+    box-sizing: border-box; /* Asegura que el padding y el borde no afecten el ancho total */
+}
