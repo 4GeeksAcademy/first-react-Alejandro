@@ -8,12 +8,18 @@ import Footer from "./footer";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<NavBar/>
-			<Jumbotron/>
-            <MyCard/>
-			<Footer/>
-		</div>
+		<>
+			<div>
+				<NavBar />
+			</div>
+			<div className="container">
+				<Jumbotron />
+				<MyCard />
+			</div>
+			<div className="text-center">
+				<Footer />
+			</div>
+		</>
 	);
 };
 
