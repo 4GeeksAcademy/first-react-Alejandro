@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="bg-dark text-white">
+    <div>
       <footer>
         <p>© 2025 My Website by Alesced</p>
       </footer>

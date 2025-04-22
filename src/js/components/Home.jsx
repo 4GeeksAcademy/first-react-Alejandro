@@ -16,7 +16,7 @@ const Home = () => {
 				<Jumbotron />
 				<MyCard />
 			</div>
-			<div className="text-center">
+			<div className="Footer">
 				<Footer />
 			</div>
 		</>
